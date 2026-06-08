@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Send, Loader, Mic, Volume2 } from 'lucide-react';
+import { Send, Loader, Mic } from 'lucide-react';
 import FeedbackCard from './FeedbackCard';
 import { generateId, saveToLocalStorage, getFromLocalStorage } from '@/lib/utils';
 import type { Message } from '@/types';
